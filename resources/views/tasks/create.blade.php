@@ -3,6 +3,8 @@
 @section('content')
 
     <h1>タスク新規作成ページ</h1>
+    
+        
         <div class="col-xs-12">
         <div class="col-sm-offset-2 col-sm-8">
         <div class="col-lg-offset-3 col-lg-6">
