@@ -2,7 +2,12 @@
 
 @section('content')
 
+<div class="text-center">
+        
+            
+        </div>
     <h1>タスクリスト</h1>
+
     
     @if (count($tasks) > 0)
         <table class="table table-striped">
@@ -27,5 +32,8 @@
     @endif
     
     {!! link_to_route('tasks.create', '新規タスクの投稿', null,  ['class' => 'btn btn-primary']) !!}
+    
+        
+  
 
 @endsection
